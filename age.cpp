@@ -9,10 +9,13 @@ int main()
     cin>>age;
     if(age>=a){
         cout<<"eligible";
+        cout<<"\n👍";
         }
         else{
             cout<<"not eligible";
+            cout<<"\n👎";
         }
+        cout<<"\nthankyou for using this service";
         
         return 0;   
 }
